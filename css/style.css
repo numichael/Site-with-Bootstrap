@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
-
 :root {
-    --brand: #ff4d29;
+    --brand: #2878f7;
     --dark: #092032;
     --body: #516171;
-    --border: rgba(0,0,0,0.08);
+    --border: rgba(0, 0, 0, 0.08);
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-    
 }
 
 body {
@@ -15,8 +13,16 @@ body {
     line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6,
-.display-1,.display-2,.display-3,.display-4 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
     font-weight: 700;
     color: var(--dark);
 }
@@ -50,9 +56,8 @@ section {
     color: var(--brand) !important;
 }
 
-
 .hero-slider .owl-prev,
-.hero-slider .owl-next{
+.hero-slider .owl-next {
     background-color: rgba(255, 255, 255, 0.3) !important;
     width: 60px !important;
     height: 60px !important;
@@ -74,27 +79,29 @@ section {
 .owl-prev {
     left: 0;
 }
+
 .owl-next {
     right: 0;
 }
 
 .hero-slider .owl-prev:hover,
 .hero-slider .owl-next:hover {
-    background-color: var(--brand) !important; 
+    background-color: var(--brand) !important;
 }
 
-.owl-dot.active span{
+.owl-dot.active span {
     background-color: var(--brand) !important;
 }
 
 
- /* slide */
- .slide {
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
+/* slide */
+
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .slide1 {
@@ -116,7 +123,9 @@ section {
     color: #fff;
 }
 
+
 /* navbar */
+
 .top-nav {
     background-color: var(--brand);
     color: #fff;
@@ -155,12 +164,14 @@ section {
     background-color: #fff;
     color: var(--brand);
 }
-.conditions-section{
+
+.conditions-section {
     margin: 20px 0;
 }
-.conditions-section a{
-   color: #fff;
-   margin: 0 10px;
+
+.conditions-section a {
+    color: #fff;
+    margin: 0 10px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -200,13 +211,16 @@ section {
     color: #fff;
 }
 
-.intro {margin-bottom: 36px;
-text-align: center;}
+.intro {
+    margin-bottom: 36px;
+    text-align: center;
+}
 
 .intro p {
     max-width: 500px;
 }
-.intro h6{
+
+.intro h6 {
     color: var(--brand);
     font-weight: 400;
     text-transform: uppercase;
@@ -225,7 +239,6 @@ text-align: center;}
 .info-box img {
     width: 90px;
 }
-
 
 #milestone {
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
@@ -254,7 +267,6 @@ text-align: center;}
     width: 90px;
 }
 
-
 .project {
     position: relative;
     overflow: hidden;
@@ -274,7 +286,6 @@ text-align: center;}
     vertical-align: middle;
     margin-right: 10px;
 }
-
 
 .project .overlay {
     width: 100%;
@@ -300,7 +311,7 @@ text-align: center;}
     text-align: center;
 }
 
-.team-member .image{
+.team-member .image {
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -348,8 +359,8 @@ text-align: center;}
 }
 
 #reviews {
-
-    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg), #082032;;
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg), #082032;
+    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -437,7 +448,8 @@ text-align: center;}
 }
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;
+    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -482,7 +494,6 @@ footer .social-icons a {
     right: 0;
 }
 
-
 input.form-control {
     border-color: transparent;
     height: 44px;
@@ -490,7 +501,8 @@ input.form-control {
 
 .form-control {
     background-color: rgba(0, 0, 0, 0.04);
-    border-color: rgba(0, 0, 0, 0.04);;
+    border-color: rgba(0, 0, 0, 0.04);
+    ;
 }
 
 .form-control:focus {
