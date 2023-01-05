@@ -53,10 +53,10 @@ p {
 }
 
 h1 {
-    color: #223150;
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
+    color: #fb8b29;
+    font-weight: bolder;
+    font-size: 75px;
+    line-height: 4rem;
     letter-spacing: -0.4px;
 }
 
@@ -495,7 +495,7 @@ a:hover {
     padding-top: 8rem;
     padding-bottom: 4em;
     background-size: cover;
-    text-align: center;
+    text-align: left;
 }
 
 .header .h1-large {
@@ -1119,7 +1119,7 @@ a:hover {
         padding-bottom: 5em;
     }
     .header .h1-large {
-        font-size: 3.25rem;
+        font-size: 3.5rem;
         line-height: 3.75rem;
     }
     /* end of header */
@@ -1325,7 +1325,7 @@ a:hover {
     /* Header */
     .header {
         overflow: hidden;
-        padding-top: 20.25rem;
+        /* padding-top: 20.25rem; */
         padding-bottom: 15rem;
     }
     .header .text-container {
@@ -1412,6 +1412,9 @@ a:hover {
     }
     /* end of extra pages */
 }
+
+
+/* end of min-width 1200px */
 
 
 /* end of min-width 1200px */
