@@ -68,14 +68,13 @@ h1.h1 {
     letter-spacing: -0.4px;
 }
 
-
-/* h1 {
+h1 {
     color: #FB9129;
     font-weight: bolder;
     font-size: 60px;
     line-height: 3rem;
     letter-spacing: -0.4px;
-} */
+}
 
 h2 {
     color: #343333;
@@ -146,8 +145,8 @@ h6 {
 }
 
 .testimonial-author {
-    font-weight: 700;
-    font-size: 1.25rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     line-height: 1.75rem;
 }
 
@@ -203,9 +202,9 @@ a:hover {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #011732;
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #011732;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -216,7 +215,7 @@ a:hover {
 
 .btn-solid-reg:hover {
     background-color: transparent;
-    color: #0092ff;
+    color: #011732;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
@@ -224,9 +223,9 @@ a:hover {
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #011732;
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #011732;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -237,7 +236,7 @@ a:hover {
 
 .btn-solid-lg:hover {
     background-color: transparent;
-    color: #0092ff;
+    color: #011732;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
@@ -245,9 +244,9 @@ a:hover {
 .btn-solid-sm {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #011732;
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #011732;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -258,7 +257,7 @@ a:hover {
 
 .btn-solid-sm:hover {
     background-color: transparent;
-    color: #0092ff;
+    color: #011732;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
@@ -266,10 +265,10 @@ a:hover {
 .btn-outline-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #ef473d;
+    border: 1px solid #03bd5a;
     border-radius: 30px;
     background-color: transparent;
-    color: #ef473d;
+    color: #03bd5a;
     font-weight: 600;
     font-size: 0.875rem;
     line-height: 0;
@@ -278,7 +277,7 @@ a:hover {
 }
 
 .btn-outline-reg:hover {
-    background-color: #ef473d;
+    background-color: #03bd5a;
     color: #ffffff;
     text-decoration: none;
 }
@@ -286,7 +285,7 @@ a:hover {
 .btn-outline-lg {
     display: inline-block;
     padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-    border: 1px solid #ef473d;
+    border: 1px solid FB9129;
     border-radius: 30px;
     background-color: transparent;
     color: #ef473d;
@@ -365,9 +364,9 @@ a:hover {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #011732;
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #011732;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -377,9 +376,9 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-    border: 1px solid #0092ff;
+    border: 1px solid #011732;
     background-color: transparent;
-    color: #0092ff;
+    color: #011732;
 }
 
 
@@ -454,8 +453,11 @@ a:hover {
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
-.navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
+    color: #011732;
+}
+
+.navbar .nav-item .nav-link:hover {
     color: #0092ff;
 }
 
@@ -574,6 +576,11 @@ a:hover {
     border-radius: 8px;
     background-color: #ddedfb;
     text-align: center;
+}
+
+.fa-laptop:before {
+    color: #0092ff;
+    background: transparent;
 }
 
 .cards-1 .card-icon .fas,
@@ -910,8 +917,8 @@ a:hover {
 }
 
 .basic-3 .btn-solid-lg {
-    border-color: #16c66d;
-    background-color: #16c66d;
+    border-color: #011732;
+    background-color: #011732;
 }
 
 .basic-3 .btn-solid-lg:hover {
