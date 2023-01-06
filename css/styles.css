@@ -404,8 +404,9 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    width: 126px;
-    height: 32px;
+    width: 400px;
+    height: 100px;
+    float: left;
 }
 
 .navbar .logo-text {
