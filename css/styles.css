@@ -406,7 +406,7 @@ a:hover {
 .navbar .logo-image img {
     width: 20px;
     height: 50px;
-    /* float: left; */
+    float: left;
 }
 
 .navbar .logo-text {
